@@ -16,20 +16,12 @@
 
 ## 架构
 
-```
-各电商平台 / 网页 / 命令行
-            │
-            ▼
-     渠道适配层（消息归一化）
-            │
-            ▼
-      Agent 核心（LLM）
-        │   Function Calling
-        ▼
-     工具层（订单/物流/商品/FAQ/售后）
-        │
-        ▼
-     数据源 DataSource（JSON / 真实 API）
+```mermaid
+flowchart TD
+    A[各电商平台 / 网页 / 命令行] --> B[渠道适配层<br/>消息归一化]
+    B --> C[Agent 核心<br/>LLM + Function Calling]
+    C --> D[工具层<br/>订单 / 物流 / 商品 / FAQ / 售后]
+    D --> E[数据源 DataSource<br/>JSON / 真实 API]
 ```
 
 ## 快速开始
