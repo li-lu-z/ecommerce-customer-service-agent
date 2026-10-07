@@ -1,5 +1,7 @@
 # 电商智能客服 Agent
 
+![界面截图](static/screenshot.png)
+
 基于大模型 Function Calling 的电商智能客服系统。让 LLM 从「只会聊天」变成「能查订单、查物流、办售后、答政策」的 Agent，支持多轮记忆、流式输出、转人工，并完成从本地演示到 Docker 生产的落地。
 
 ## 功能特性
