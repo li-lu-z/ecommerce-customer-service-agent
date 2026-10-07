@@ -1,0 +1,7 @@
+# 运行依赖（真实 LLM + FastAPI + 生产环境）
+openai>=1.40.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.0.0
+redis>=5.0.0
+requests>=2.31.0
